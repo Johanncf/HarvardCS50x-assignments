@@ -1,0 +1,44 @@
+sort1 uses: bubble sort
+
+How do you know?: Bubble sort is the only algorithm among the three that has big O(n**2) different from big Omega(n).
+
+sort2 uses: merge sort 
+
+How do you know?: Since it could be merge or selection, I looked for the running time difference between them when sorting a large sequence of numbers. It turned out that sort2 is 3 times faster than sort3. 
+
+sort3 uses: selection sort
+
+How do you know?: By exclusion. 
+
+
+
+draft
+{
+sort1 on:-------------------------------------------OBS: Much faster on already sorted lists over a same size random one. > bubble sort
+
+random5000.txt = .112s 
+sorted5000.txt = .016s
+
+random50000.txt = 16.199s
+
+reversed50000.txt = 11.191s
+
+sort2 on:-------------------------------------------OBS: Same order of time on sorted and random lists of same size. > merge sort
+
+random5000.txt = .017s 
+sorted5000.txt = .013s
+
+random50000.txt = 3.267s
+
+reversed50000.txt = 3.616s
+
+sort3 on:--------------------------------------------OBS: Same order of time on sorted and random lists of same size. > selection sort
+
+random5000.txt = .032s 
+sorted5000.txt = .072s
+
+random50000.txt = 9.411s
+
+reversed50000.txt = 8.047s
+
+}
