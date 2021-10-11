@@ -11,4 +11,4 @@ Bubble Sort and Merge Sort) sem precisar que escrevêssemos uma linha de código
 sem que soubéssemos qual algoritmo era qual. Além disso, também nos foram disponibilizados 9 datasets diferentes: 3 deles já ordenados, 3 com arranjos aleatórios e 3 ordenados 
 ao contrário. Dentro de um mesmo grupo de dataset (os datasets já ordenados, por exemplo) a diferença entre os três estava na extensão do arquivo. O menor possuia 5 000 elementos,
 o intermediário possuía 10 000 e o maior 50 000. Nossa tarefa era simples: Indicar quais algoritmos estavam nos programas sort1, sort2 e sort3 através da interpretação do tempo
-que cada programa levou para orderar os diferentes datasets. 
+que cada programa levou para ordenar os diferentes datasets. 
