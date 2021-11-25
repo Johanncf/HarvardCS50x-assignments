@@ -15,6 +15,7 @@
 Em <em>Speller</em> o desafio foi criar um programa de terminal de comando que lê um arquivo .txt e verifica a soletração de cada palavra do texto com base em um dicionário que será carregado em uma hash table (estrutura de dado). Além disso, o programa deve funcionar da forma mais eficiente possível, ou seja, deve realizar a verificação no menor tempo possível, buscando minimizar também o espaço de memória utilizado para criar a estrutura de dados.
 </p><br>
 
+Execução do programa na linha de comando do terminal:
 ![image](https://user-images.githubusercontent.com/90796061/143493958-8bb18b22-52b7-4da8-8287-29e35188b521.png)
 
 <p>
@@ -40,7 +41,9 @@ Em <em>Speller</em> o desafio foi criar um programa de terminal de comando que l
 <p>
     OBSs:<br>
     1 - Para conferir a descrição completa do exercício na plataforma do curso, <a href='https://cs50.harvard.edu/x/2021/psets/5/speller/'>clique aqui.</a><br>
-    2 - Caso você queira testar o código, será necessário o download dos pacotes importados pelo código. Outra possibilidade é utilizar a IDE do curso, que já possui todos os pacotes instalados. Para acessar a IDE do curso basta fazer login com uma conta do github. Acesse a IDE <a href='https://ide.cs50.io/'>clicando aqui</a>.
+    2 - Caso você queira testar o código, será necessário o download dos pacotes importados pelo código. Outra possibilidade é utilizar a IDE do curso, que já possui todos os pacotes instalados. Para acessar a IDE do curso basta fazer login com uma conta do github. Acesse a IDE <a href='https://ide.cs50.io/'>clicando aqui</a>. Basta fazer o upload desde repositório na IDE e, através da linha de comando, navegar até a pasta com os arquivos e executar o programa como exemplificado na imagem acima.
 </p>
+
+Obrigado!
 
 
